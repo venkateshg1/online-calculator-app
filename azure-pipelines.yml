@@ -10,7 +10,7 @@ steps:
     publishWebProjects: true
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Azure subscription 1'
+    azureSubscription: 'Demo-SC'
     appType: 'webAppLinux'
     appName: 'demo-webapp'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
